@@ -47,6 +47,13 @@
 
 				Console.WriteLine("Your color is yellow!");
 			}
+			else if (color == "magneta")
+			{
+				Console.BackgroundColor = ConsoleColor.Magenta;
+				Console.ForegroundColor = ConsoleColor.Black;
+
+				Console.WriteLine("Your color is magneta!");
+			}
 			else
 			{
 				Console.BackgroundColor = ConsoleColor.Cyan;

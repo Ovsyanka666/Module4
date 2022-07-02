@@ -1,6 +1,6 @@
 ﻿namespace SkillFactory.Module4 {
     class Module4 {
-        static void Main()  {
+        //static void Main()  {
             //Запишите код, который проверяет следующее выражение: переменная A типа string не равна переменной B типа string.
             //string A = "A", B = "B";
             //bool C = A != B;
@@ -21,46 +21,46 @@
             //Console.WriteLine(c);
 
 			//Приколы с цветами
-			Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
+			//Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
 
-			var color = Console.ReadLine();
+			//var color = Console.ReadLine();
 
-			if (color == "red")
-			{
-				Console.BackgroundColor = ConsoleColor.Red;
-				Console.ForegroundColor = ConsoleColor.Black;
+			//if (color == "red")
+			//{
+			//	Console.BackgroundColor = ConsoleColor.Red;
+			//	Console.ForegroundColor = ConsoleColor.Black;
 
-				Console.WriteLine("Your color is red!");
-			}
+			//	Console.WriteLine("Your color is red!");
+			//}
 
-			else if (color == "green")
-			{
-				Console.BackgroundColor = ConsoleColor.Green;
-				Console.ForegroundColor = ConsoleColor.Black;
+			//else if (color == "green")
+			//{
+			//	Console.BackgroundColor = ConsoleColor.Green;
+			//	Console.ForegroundColor = ConsoleColor.Black;
 
-				Console.WriteLine("Your color is green!");
-			}
-			else if (color == "yellow")
-			{
-				Console.BackgroundColor = ConsoleColor.Yellow;
-				Console.ForegroundColor = ConsoleColor.DarkRed;
+			//	Console.WriteLine("Your color is green!");
+			//}
+			//else if (color == "yellow")
+			//{
+			//	Console.BackgroundColor = ConsoleColor.Yellow;
+			//	Console.ForegroundColor = ConsoleColor.DarkRed;
 
-				Console.WriteLine("Your color is yellow!");
-			}
-			else if (color == "magneta")
-			{
-				Console.BackgroundColor = ConsoleColor.Magenta;
-				Console.ForegroundColor = ConsoleColor.Black;
+			//	Console.WriteLine("Your color is yellow!");
+			//}
+			//else if (color == "magneta")
+			//{
+			//	Console.BackgroundColor = ConsoleColor.Magenta;
+			//	Console.ForegroundColor = ConsoleColor.Black;
 
-				Console.WriteLine("Your color is magneta!");
-			}
-			else
-			{
-				Console.BackgroundColor = ConsoleColor.Cyan;
-				Console.ForegroundColor = ConsoleColor.Black;
+			//	Console.WriteLine("Your color is magneta!");
+			//}
+			//else
+			//{
+			//	Console.BackgroundColor = ConsoleColor.Cyan;
+			//	Console.ForegroundColor = ConsoleColor.Black;
 
-				Console.WriteLine("Your color is cyan!");				
-			}
-		}
+			//	Console.WriteLine("Your color is cyan!");				
+			//}
+		//}
     }
 }

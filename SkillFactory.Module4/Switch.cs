@@ -1,6 +1,6 @@
 ﻿namespace SkillFactory.Module4 {
     class Switch {
-		public static void Main(string[] args) {
+		//public static void Main(string[] args) {
             //Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
 
             //string color = "red";
@@ -265,41 +265,82 @@
             //Console.WriteLine("Количество положительных чисел: " + count);
 
 
-            int[,] arr = { { -5, 6, 9, 1, 2, -3 }, { -8, 8, 1, 1, 2, -3 } };
-            for (int i = 0; i < arr.GetUpperBound(0) + 1; i++)
-            {
-                for (int t = 0; t < arr.GetUpperBound(1) + 1; t++)
-                {
-                    Console.Write(arr[i, t] + " ");
-                }
-                Console.WriteLine();
-            }
 
-            for (int i = 0; i < arr.GetUpperBound(0) + 1; i++)
-            {
-                for (int k = 0; k < arr.GetUpperBound(1) + 1; k++)
-                {
-                    for (int t = 0; t < arr.GetUpperBound(1); t++)
-                    {
-                        if (arr[i, t] > arr[i, t + 1])
-                        {
-                            int a = arr[i, t];
-                            arr[i, t] = arr[i, t + 1];
-                            arr[i, t + 1] = a;
-                        }
-                    }
-                }
-            }
 
-            for (int i = 0; i < arr.GetUpperBound(0) + 1; i++)
-            {
-                for (int t = 0; t < arr.GetUpperBound(1) + 1; t++)
-                {
-                    Console.Write(arr[i, t] + " ");
-                }
-                Console.WriteLine();
-            }
+            //int[,] arr = { { -5, 6, 9, 1, 2, -3 }, { -8, 8, 1, 1, 2, -3 } };
+            //for (int i = 0; i < arr.GetUpperBound(0) + 1; i++)
+            //{
+            //    for (int t = 0; t < arr.GetUpperBound(1) + 1; t++)
+            //    {
+            //        Console.Write(arr[i, t] + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //for (int i = 0; i < arr.GetUpperBound(0) + 1; i++)
+            //{
+            //    for (int k = 0; k < arr.GetUpperBound(1) + 1; k++)
+            //    {
+            //        for (int t = 0; t < arr.GetUpperBound(1); t++)
+            //        {
+            //            if (arr[i, t] > arr[i, t + 1])
+            //            {
+            //                int a = arr[i, t];
+            //                arr[i, t] = arr[i, t + 1];
+            //                arr[i, t + 1] = a;
+            //            }
+            //        }
+            //    }
+            //}
+            //for (int i = 0; i < arr.GetUpperBound(0) + 1; i++)
+            //{
+            //    for (int t = 0; t < arr.GetUpperBound(1) + 1; t++)
+            //    {
+            //        Console.Write(arr[i, t] + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
 
-        }
+
+
+            //Console.Write("Enter your name: ");
+            //string name = Console.ReadLine();
+            //Console.Write("Enter your age: ");
+            //byte age = (byte)int.Parse(Console.ReadLine());
+            //Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+            //Console.ReadKey();
+
+            //var anketa = (name: "Jane", age: 27);
+
+            //Console.WriteLine("Ваше имя: {0}", anketa.name);
+            //Console.WriteLine("Ваш возраст: {0}", anketa.age);
+
+            //создаём кортеж
+            //(string name, int age) anketa;
+
+
+            //var (name, age) = ("Lera", 22);
+            //Console.Write("Enter your name: ");
+            //name = Console.ReadLine();
+            //Console.Write("Enter your age: ");
+            //age = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Ваше имя: {0}\nВаш возраст: {1}", name, age);
+
+
+
+            //Задайте кортеж Pet с данными о вашем домашнем животном(требуется ввод полей с клавиатуры, нет исходных значений): имя Name, описание Type(кошка, собака, хомяк и т.п.), возраст Age(1, 5 года, 3 года и т.п.). В конце укажите точку с запятой.
+                      
+            //(string Name, string Type, double Age, int NameCount) Pet;
+            //Console.Write("Enter your pet's name: ");
+            //Pet.Name = Console.ReadLine();
+            //Pet.NameCount = Pet.Name.Length;
+            //Console.Write("What kind of pet is it? ");
+            //Pet.Type = Console.ReadLine();
+            //Console.Write("Enter your pet's age: ");
+            //Pet.Age = Convert.ToDouble(Console.ReadLine());
+            
+            //Console.WriteLine("Your pet is a {0} called {1}.\nIt's {2} years old.\nIt's name consists of {3} letters.", Pet.Type, Pet.Name, Pet.Age, Pet.NameCount);
+
+            
+        //}
     }
 }
